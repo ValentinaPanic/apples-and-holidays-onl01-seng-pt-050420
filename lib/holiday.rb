@@ -54,8 +54,6 @@ holiday_hash.collect do |season,holiday|
    puts season.to_s.capitalize!+":"
          holiday.collect do |holiday_name, supplies|
            puts "  " + holiday_name.to_s.split("_").map{|word| word.capitalize}.join(" ") + ": "  + supplies.join(", ")
-
-
 end
 end
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -66,7 +64,7 @@ end
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 end
-  end
+  
   def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map do |season, holidays|
     holidays.map do |holiday, supplies|
