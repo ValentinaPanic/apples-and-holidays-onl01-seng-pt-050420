@@ -54,10 +54,8 @@ holiday_hash.collect do |season,holiday|
   if season == :winter
 #message =  season.to_s.capitalize!+":"
       holiday.collect do |holiday_name, supplies|
-      message = holiday_name.to_s.split("_").join(" ").capitalize + ":"
-supplies. each do |supply|
-   message += supply
-end
+      message = holiday_name.to_s.split("_").join(" ").capitalize + ":" + supplies.join(",")
+
     end
 end
 end
