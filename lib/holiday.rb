@@ -56,7 +56,7 @@ holiday_hash.collect do |season,holiday|
       holiday.collect do |holiday_name, supplies|
       message = holiday_name.to_s.split("_").join(" ").capitalize + ":"
 supplies. each do |supply|
-  puts supply
+   message += supply
 end
     end
 end
