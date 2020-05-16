@@ -75,6 +75,7 @@ end
   end.flatten.compact
 end
 end
+end
 
 
   # return an array of holiday names (as symbols) where supply lists
