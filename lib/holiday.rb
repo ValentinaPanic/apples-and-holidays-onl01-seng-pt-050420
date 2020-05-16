@@ -56,7 +56,7 @@ holiday_hash.collect do |season,holiday|
          holiday.collect do |holiday_name, supplies|
            puts "  " + holiday_name.to_s.split("_").map{|word| word.capitalize}.join(" ") + ": "  + supplies.join(", ")
 
-    
+
 end
 end
   # iterate through holiday_hash and print items such that your readout resembles:
