@@ -52,7 +52,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
 holiday_hash.collect do |season,holiday|
   if season == :winter
-message =  puts season.to_s.capitalize!+":"
+message =  season.to_s.capitalize!+":"
       holiday.collect do |holiday_name, supply|
        puts holiday_name.to_s.split("_").join(" ").capitalize + ":"
 
