@@ -73,6 +73,7 @@ end
       holiday if supplies.include?("BBQ")
     end
   end.flatten.compact
+end
 
 
   # return an array of holiday names (as symbols) where supply lists
