@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
          holiday.collect do |holiday, supply|
            if holiday.include?("BBQ")
               puts holiday
-            
+
            end
          end
      end
